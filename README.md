@@ -1,6 +1,6 @@
 # **Basic Conversation**
 
-Credit: This application was originally created by **Sergio Gama** (sgama@br.ibm.com).
+Credit: This application was originally created by **Sergio Gama** https://github.com/sergiogama/Conversation-Basico.
 
 ## Web Application Template for Watson Conversation API Demonstration
 
