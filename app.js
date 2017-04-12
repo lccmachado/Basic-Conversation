@@ -42,16 +42,16 @@ var watson = require('watson-developer-cloud');
 
 app.get('/', routes.index);
 
-//credenciais de acesso ao serviço do Watson Conversation
+//Required: Watson Conversation credentials
 var conversation = watson.conversation({
-  username:'<username>',//substitua pelo username do seu serviço
-  password:'<password>',//substitua pelo password do seu serviço
+  username:'<username>',//replace with username for Watson Conversation
+  password:'<password>',//replace with password for Watson Conversation
   version: 'v1',
   version_date: '2016-07-11'
 });
 
 
-//Worskpace ID a ser mudado pelo seu Conversation
+//Required: Watson Conversation Workspace ID
 var workspace = '<workspace_id>';
 
 
@@ -61,7 +61,7 @@ app.post('/converse', function(req, res, next) {
     context: {},
     input: {}
   };
-  
+
   if (req.body) {
     if ( req.body.input ) {
       payload.input = {text: req.body.input};
@@ -90,4 +90,3 @@ app.post('/converse', function(req, res, next) {
 http.createServer(app).listen(app.get('port'), '0.0.0.0', function() {
 	console.log('Express server listening on port ' + app.get('port'));
 });
-
