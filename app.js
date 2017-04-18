@@ -2,6 +2,8 @@
  * Module dependencies.
  */
 
+ /*global __dirname console exports process require*/
+
 var express = require('express'),
 routes = require('./routes'),
 user = require('./routes/user'),
