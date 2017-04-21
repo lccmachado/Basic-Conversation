@@ -4,7 +4,9 @@ Credit: This application was originally created by **Sergio Gama** https://githu
 
 
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button_x2.png)](https://bluemix.net/deploy?repository=https://github.com/lccmachado/Basic-Conversation)
+
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button_x2.png)](https://bluemix.net/deploy?repository=https://github.com/lccmachado/Basic-Conversation&branch=deploy_to_bluemix)
 
 
 ## Web Application Template for Watson Conversation API Demonstration
