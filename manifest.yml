@@ -6,6 +6,3 @@ applications:
   name: chatbot-basico
   host: chatbot-${random-word}
   disk_quota: 1024M
-
-- services:
-  - momentum-conversation-service
