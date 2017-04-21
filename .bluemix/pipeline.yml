@@ -1,3 +1,0 @@
-
-#!/bin/bash
-cf create-service conversation free momentum-conversation-service
